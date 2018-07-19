@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Infrontlabs\\Startup\\": "src"
+      "InfrontLabs\\Startup\\": "src"
     }
   }
 }
