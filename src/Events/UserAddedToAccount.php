@@ -1,10 +1,10 @@
 <?php
 
-namespace InfrontLabs\Startup\Events;
+namespace Infrontlabs\Startup\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 
 class UserAddedToAccount
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers\Account;
+namespace Infrontlabs\Startup\Controllers\Account;
 
-use InfrontLabs\Startup\Models\TeamInvite;
+use Infrontlabs\Startup\Models\TeamInvite;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 

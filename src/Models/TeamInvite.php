@@ -1,9 +1,9 @@
 <?php
 
-namespace InfrontLabs\Startup\Models;
+namespace Infrontlabs\Startup\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 
 class TeamInvite extends Model
 {

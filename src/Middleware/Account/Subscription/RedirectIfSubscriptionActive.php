@@ -1,9 +1,9 @@
 <?php
 
-namespace InfrontLabs\Startup\Middleware\Account\Subscription;
+namespace Infrontlabs\Startup\Middleware\Account\Subscription;
 
 use Closure;
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 
 class RedirectIfSubscriptionActive
 {

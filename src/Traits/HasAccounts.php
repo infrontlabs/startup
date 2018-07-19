@@ -1,8 +1,8 @@
 <?php
 
-namespace InfrontLabs\Startup\Traits;
+namespace Infrontlabs\Startup\Traits;
 
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 
 trait HasAccounts
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace InfrontLabs\Startup\Scopes;
+namespace Infrontlabs\Startup\Scopes;
 
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Scope;

@@ -1,6 +1,6 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers\Account;
+namespace Infrontlabs\Startup\Controllers\Account;
 
 use App\Http\Controllers\Controller;
 

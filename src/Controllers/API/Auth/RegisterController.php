@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\API\Auth;
 
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 use App\Http\Controllers\Controller;
 use App\User;
 use Illuminate\Http\Request;

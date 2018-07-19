@@ -1,9 +1,9 @@
 <?php
 
-namespace InfrontLabs\Startup\Middleware;
+namespace Infrontlabs\Startup\Middleware;
 
 use Closure;
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 
 class TenentMiddleware
 {

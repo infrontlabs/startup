@@ -1,13 +1,13 @@
 <?php
 
-namespace InfrontLabs\Startup;
+namespace Infrontlabs\Startup;
 
 use Hashids\Hashids;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 
 class StartupServiceProvider extends ServiceProvider
 {
@@ -22,7 +22,7 @@ class StartupServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../views', 'startup');
 
         Route::middleware(['web', 'auth', 'tenent', 'bindings'])
-            ->namespace('InfrontLabs\Startup\Controllers')
+            ->namespace('Infrontlabs\Startup\Controllers')
             ->group(__DIR__ . '/routes.php');
 
         $this->app->singleton('currentAccount', function () {

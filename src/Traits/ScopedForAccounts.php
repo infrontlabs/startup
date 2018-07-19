@@ -1,8 +1,8 @@
 <?php
 
-namespace InfrontLabs\Startup\Traits;
+namespace Infrontlabs\Startup\Traits;
 
-use InfrontLabs\Startup\Scopes\AccountScope;
+use Infrontlabs\Startup\Scopes\AccountScope;
 
 trait ScopedForAccounts
 {

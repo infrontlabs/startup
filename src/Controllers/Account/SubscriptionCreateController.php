@@ -1,9 +1,9 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers\Account;
+namespace Infrontlabs\Startup\Controllers\Account;
 
 use App\Http\Controllers\Controller;
-use InfrontLabs\Startup\Requests\Account\CreateSubscriptionRequest;
+use Infrontlabs\Startup\Requests\Account\CreateSubscriptionRequest;
 
 class SubscriptionCreateController extends Controller
 {

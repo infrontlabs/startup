@@ -1,10 +1,10 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers\Account;
+namespace Infrontlabs\Startup\Controllers\Account;
 
 // use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use InfrontLabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\Account;
 
 class AccountRedirectController extends Controller
 {

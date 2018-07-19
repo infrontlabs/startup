@@ -1,6 +1,6 @@
 <?php
 
-namespace InfrontLabs\Startup\Traits;
+namespace Infrontlabs\Startup\Traits;
 
 trait HasSubscriptions
 {

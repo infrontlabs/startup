@@ -1,12 +1,12 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers\Account;
+namespace Infrontlabs\Startup\Controllers\Account;
 
 use App\Http\Controllers\Controller;
 use App\Mail\Account\PasswordChanged;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
-use InfrontLabs\Startup\Requests\Account\PasswordChangeRequest;
+use Infrontlabs\Startup\Requests\Account\PasswordChangeRequest;
 
 class PasswordController extends Controller
 {

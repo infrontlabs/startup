@@ -1,9 +1,9 @@
 <?php
 
-namespace InfrontLabs\Startup\Traits;
+namespace Infrontlabs\Startup\Traits;
 
 use App\User;
-use InfrontLabs\Startup\Models\TeamInvite;
+use Infrontlabs\Startup\Models\TeamInvite;
 
 trait HasTeam
 {

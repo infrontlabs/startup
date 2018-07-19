@@ -1,6 +1,6 @@
 <?php
 
-namespace InfrontLabs\Startup\Middleware\Account;
+namespace Infrontlabs\Startup\Middleware\Account;
 
 use Closure;
 

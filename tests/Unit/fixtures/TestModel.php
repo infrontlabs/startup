@@ -3,8 +3,8 @@
 namespace Startup\Tests\Unit\Fixtures;
 
 use Illuminate\Database\Eloquent\Model;
-use InfrontLabs\Startup\Models\Account;
-use InfrontLabs\Startup\Traits\ScopedForAccounts;
+use Infrontlabs\Startup\Models\Account;
+use Infrontlabs\Startup\Traits\ScopedForAccounts;
 
 class TestModel extends Model
 {

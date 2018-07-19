@@ -1,6 +1,6 @@
 <?php
 
-namespace InfrontLabs\Startup\Models;
+namespace Infrontlabs\Startup\Models;
 
 use App\User;
 use Illuminate\Database\Eloquent\Model;

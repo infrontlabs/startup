@@ -1,6 +1,6 @@
 <?php
 
-namespace InfrontLabs\Startup;
+namespace Infrontlabs\Startup;
 
 class Startup
 {

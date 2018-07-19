@@ -1,10 +1,10 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers\Account;
+namespace Infrontlabs\Startup\Controllers\Account;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use InfrontLabs\Startup\Requests\Account\UpdateCardRequest;
+use Infrontlabs\Startup\Requests\Account\UpdateCardRequest;
 
 class SubscriptionCardController extends Controller
 {

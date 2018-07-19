@@ -1,6 +1,6 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers;
+namespace Infrontlabs\Startup\Controllers;
 
 // use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

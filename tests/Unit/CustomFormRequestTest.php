@@ -5,9 +5,9 @@ namespace Tests\Unit;
 use App\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Validator;
-use InfrontLabs\Startup\Requests\Account\CreateAccountRequest;
-use InfrontLabs\Startup\Requests\Account\CreateSubscriptionRequest;
-use InfrontLabs\Startup\Requests\Account\PasswordChangeRequest;
+use Infrontlabs\Startup\Requests\Account\CreateAccountRequest;
+use Infrontlabs\Startup\Requests\Account\CreateSubscriptionRequest;
+use Infrontlabs\Startup\Requests\Account\PasswordChangeRequest;
 use Tests\TestCase;
 
 class CustomFormRequestTest extends TestCase

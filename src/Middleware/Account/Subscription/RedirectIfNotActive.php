@@ -1,6 +1,6 @@
 <?php
 
-namespace InfrontLabs\Startup\Middleware\Account\Subscription;
+namespace Infrontlabs\Startup\Middleware\Account\Subscription;
 
 use Closure;
 

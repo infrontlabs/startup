@@ -1,11 +1,11 @@
 <?php
 
-namespace InfrontLabs\Startup\Models;
+namespace Infrontlabs\Startup\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Cashier\Billable;
-use InfrontLabs\Startup\Traits\HasSubscriptions;
-use InfrontLabs\Startup\Traits\HasTeam;
+use Infrontlabs\Startup\Traits\HasSubscriptions;
+use Infrontlabs\Startup\Traits\HasTeam;
 
 class Account extends Model
 {

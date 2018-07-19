@@ -1,13 +1,13 @@
 <?php
 
-namespace InfrontLabs\Startup\Controllers\Account;
+namespace Infrontlabs\Startup\Controllers\Account;
 
 use App\Events\Account\TeamInviteCreated;
 use App\Http\Controllers\Controller;
 use App\User;
 use Illuminate\Http\Request;
-use InfrontLabs\Startup\Models\TeamInvite;
-use InfrontLabs\Startup\Requests\Account\TeamInviteRequest;
+use Infrontlabs\Startup\Models\TeamInvite;
+use Infrontlabs\Startup\Requests\Account\TeamInviteRequest;
 
 class TeamController extends Controller
 {

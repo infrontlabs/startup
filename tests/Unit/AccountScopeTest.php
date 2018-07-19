@@ -5,8 +5,8 @@ namespace Startup\Tests\Unit;
 use App\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Artisan;
-use InfrontLabs\Startup\Models\Account;
-use InfrontLabs\Startup\Tests\Unit\Fixtures\TestModel;
+use Infrontlabs\Startup\Models\Account;
+use Infrontlabs\Startup\Tests\Unit\Fixtures\TestModel;
 use Tests\TestCase;
 
 class AccountScopeTest extends TestCase
