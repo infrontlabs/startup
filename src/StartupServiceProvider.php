@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Infrontlabs\Startup\Models\Account;
+use Infrontlabs\Startup\Models\ConfirmationToken;
 
 class StartupServiceProvider extends ServiceProvider
 {
@@ -20,10 +21,9 @@ class StartupServiceProvider extends ServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__ . '/../migrations');
         $this->loadViewsFrom(__DIR__ . '/../views', 'startup');
+        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
 
-        Route::middleware(['web', 'auth', 'tenent', 'bindings'])
-            ->namespace('Infrontlabs\Startup\Controllers')
-            ->group(__DIR__ . '/routes.php');
+        Route::model('confirmation_token', ConfirmationToken::class);
 
         $this->app->singleton('currentAccount', function () {
             return optional(auth()->user())->currentAccount;
