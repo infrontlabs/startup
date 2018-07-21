@@ -1,6 +1,6 @@
 {
-  "name": "infrontlabs/startup",
-  "description": "A Laravel based multi-tenent platform for your next SaaS.",
+  "name": "infrontlabs/startup-core",
+  "description": "A Laravel based multi-tenent library for your next SaaS.",
   "type": "library",
   "license": "MIT",
   "authors": [
